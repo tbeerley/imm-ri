@@ -1,0 +1,15 @@
+# git-ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+*.cache
+_*
+TestResults
+*DXCore*
+*.dll
+*.exe
+.*
+!.gitignore
+bin
+obj
+*.suo
+*.resharper
+*.resharper.user
